@@ -18,22 +18,31 @@ a{text-decoration:none;}
 .searchBox{width:320px;padding-top: 10px;position: relative;}
 .search_input{width: 216px;height: 14px;line-height: 14px;padding:11px 6px;border: 2px solid #9F9F9F;border-right: none;}
 .search_btn{width: 90px;height:40px;background: url(../img/search_btn.gif) left top no-repeat;}
+
 /*搜索交互*/
 .search_hover{border-color: #3EABFF;}
-.search_show{width: 440px;border: 2px solid #3EABFF;padding:2px 3px;background-color:#fff;position: absolute;left: 0;top: 48px;}
+.search_show{display:none;width: 440px;border: 2px solid #3EABFF;padding:2px 3px;background-color:#fff;position: absolute;left: 0;top: 48px;}
 .showList{width: 259px; font-size:14px;border-right:1px solid #F3F3F3; border-top: 1px solid #F3F3F3;}
 .showList li{height: 30px;line-height: 30px;border-bottom: 1px solid #F3F3F3;}
 .showList li a{float: left;color: #909090;padding-left: 5px;}
 .showList li span{float: right;font-size: 12px;color: #909090;padding-right: 8px;}
 .showList .active{background: #F3F3F3;}
-.imgShow{width: 172px;background: #F3F3F3; padding-left: 8px;}
+.imgShow{width: 172px;background: #F3F3F3; padding-left: 8px;padding:11px 0 11px 8px;}
+.imgShowTxt{height: 81px;}
 .imgShow dt{width: 70px;height: 105px;float: left;}
 .imgShow dd{width: 92px;float: right;}
 .imgShow dd h3{color: #000;font-size: 14px;margin-bottom: 5px;}
 .imgShow dd p{color: #909090;line-height: 22px;}
 .imgShow_play{width:53px;height:24px;padding-left: 8px;background: url(../img/play_btn.png) left top no-repeat;display: inline-block;}
 
-
+/*登陆*/
+.menu li{float: left; font-family:"Microsoft YaHei";font-size: 14px;}
+.menuTxt{height: 24px;line-height: 24px;padding: 18px 12px;}
+.menuTxt span{padding: 0 5px;}
+.menuTxt a{color: #545454;}
+.login{background: url(../img/icon/icon1.png) left center no-repeat;padding-left: 21px;}
+.record{background: url(../img/icon/icon2.png) left center no-repeat;padding-left: 21px;}
+.upLoad{background: url(../img/icon/icon3.png) left center no-repeat;padding-left: 21px;}
 
 
 /*通用样式*/
